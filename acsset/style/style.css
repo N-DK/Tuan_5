@@ -135,6 +135,11 @@ body {
     margin-right: 46px;
 }
 
+.main__product {
+    padding-bottom: 44px;
+    border-bottom: 1px solid #9095a0;
+}
+
 .product__img {
     display: flex;
     margin-bottom: 50px;
