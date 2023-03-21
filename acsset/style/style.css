@@ -135,9 +135,10 @@ body {
     margin-right: 46px;
 }
 
+.main__review-content,
 .main__product {
     padding-bottom: 44px;
-    border-bottom: 1px solid #9095a0;
+    border-bottom: 1px solid #fefefe;
 }
 
 .product__img {
@@ -149,25 +150,40 @@ body {
     margin-right: 8px;
 }
 
+.product__img-main img {
+    width: 100%;
+    height: 100%;
+}
+
 .product__img-detail {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -8px;
+    margin: 0 -4px;
+    margin-bottom: -8px;
     flex: 1;
 }
 
-.col {
-    padding: 0 8px;
-    padding-bottom: 8px;
+.gird {
+    width: 100%;
 }
 
-.col-3 {
-    flex:25%;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    padding: 0 4px;
+
+}
+
+.col-6 {
+    flex:0 0 50%;
 } 
 
-.col img {
+.product__img-details img {
+    width: 100%;
     height: 100%;
     object-fit: contain;
+    padding-bottom: 8px;
 }
 
 .product__content {
@@ -261,4 +277,76 @@ body {
     border: 1px solid #00bdd6;
     color: #00bdd6;
     background-color: transparent;
+}
+
+.main__review {
+    margin-top: 50px;
+}
+
+.main__review-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.review__title-left {
+    display: flex;
+    align-items: center;
+}
+
+.review__title-left h3 {
+    font-size: 26px;
+}
+
+.review__title-left > img {
+    margin: 0 4px;
+}
+
+.review__title-left > span:last-child {
+    margin-left: 2px;
+    color: #565e6c;
+}
+
+.review__title-right > a {
+    text-decoration: none;
+    color: #9297a2;
+    display: flex;
+    align-items: center;
+}
+
+.review__title-right > a > span {
+    margin-right: 12px;
+}
+
+.account__container {
+    margin-bottom: 40px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.account__img {
+    margin-right: 16px;
+}
+
+.account__name {
+    margin-bottom: 6px;
+}
+
+.account__name > span:nth-child(2) {
+    font-size: 14px;
+    color: #9095a0;
+}
+
+.account__comment {
+    max-width: 545px;
+}
+
+.account__comment p{
+    line-height: 1.6;
+    font-size: 14px;
 }
