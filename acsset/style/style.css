@@ -308,6 +308,7 @@ body {
     color: #565e6c;
 }
 
+.related-roduct__title-right > a,
 .review__title-right > a {
     text-decoration: none;
     color: #9297a2;
@@ -315,6 +316,7 @@ body {
     align-items: center;
 }
 
+.related-roduct__title-right > a > span,
 .review__title-right > a > span {
     margin-right: 12px;
 }
@@ -349,4 +351,63 @@ body {
 .account__comment p{
     line-height: 1.6;
     font-size: 14px;
+}
+
+.main__related-product {
+    padding-bottom: 90px;
+    border: 1px solid #fefefe;
+}
+
+.main__related-product .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.main__related-product .title h3 {
+    font-size: 26px;
+}
+
+.related-product {
+    justify-content: space-between;
+}
+
+.related-product__container {
+    width: 280px;   
+}
+
+.related-product__container > img {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 22px;
+}
+
+.related-product__container-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.related-product__container-title h3 {
+    font-size: 22px;
+}
+
+.related-product__container > p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #00bdd6;
+}
+
+.related-product__container-rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.related-product__container-rating > span {
+    font-size: 12px;
+    color: #565e6c;
 }
